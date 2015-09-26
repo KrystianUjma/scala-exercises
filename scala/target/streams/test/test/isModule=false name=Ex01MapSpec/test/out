@@ -1,0 +1,57 @@
+[0m[[0minfo[0m] [0m[32mEx01MapSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mEmpty map[0m[0m
+[0m[[0minfo[0m] [0m[31m- should always return None *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at coffee.lambda.Ex01Map$.emptyMap(Ex01Map.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$1.apply$mcV$sp(Ex01MapSpec.scala:6)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$1.apply(Ex01MapSpec.scala:6)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$1.apply(Ex01MapSpec.scala:6)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mStore[0m[0m
+[0m[[0minfo[0m] [0m[31m- should actually store something *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at coffee.lambda.Ex01Map$.emptyMap(Ex01Map.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$2.apply$mcV$sp(Ex01MapSpec.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$2.apply(Ex01MapSpec.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$2.apply(Ex01MapSpec.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mStored values[0m[0m
+[0m[[0minfo[0m] [0m[31m- should persist between store calls *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at coffee.lambda.Ex01Map$.emptyMap(Ex01Map.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$3.apply$mcV$sp(Ex01MapSpec.scala:14)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$3.apply(Ex01MapSpec.scala:13)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$3.apply(Ex01MapSpec.scala:13)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mStoring again under the same key[0m[0m
+[0m[[0minfo[0m] [0m[31m- should shadow the old value *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at coffee.lambda.Ex01Map$.emptyMap(Ex01Map.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$4.apply$mcV$sp(Ex01MapSpec.scala:19)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$4.apply(Ex01MapSpec.scala:18)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Ex01MapSpec$$anonfun$4.apply(Ex01MapSpec.scala:18)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
